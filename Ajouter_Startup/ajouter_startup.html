@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajouter_startup.css">
+    <title>Ajouter Startup</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Startup-link.ma Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Startup</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Annonce</a></li>
+            </ul>
+        </nav>
+        <div class="actions">
+            <a href="#" class="btn">Inscrire sa Startup</a>
+            <a href="authentification-SI.html" class="btn">Connexion</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher une Startup...">
+        </div>
+    </header>
+    
+    <div class="container">
+        <img src="GitHub-Mark.png" alt="Logo" class="logo">
+        <form action="#" method="post">
+                <label for="nom-startup">Nom de votre startup :</label>
+            <input type="text" id="nom-startup" name="nom-startup" placeholder="Tapez votre réponse ici" required>
+            
+
+            <label>Dans quel(s) secteur(s) intervient votre Startup ?</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="adtech" name="secteur[]" value="AdTech – MarTech">
+                <label for="adtech">AdTech – MarTech</label><br>
+
+                <input type="checkbox" id="cleantech" name="secteur[]" value="CleanTech – GreenTech">
+                <label for="cleantech">CleanTech – GreenTech</label><br>
+
+                <input type="checkbox" id="fintech" name="secteur[]" value="FinTech – AssurTech">
+                <label for="fintech">FinTech – AssurTech</label><br>
+
+                <input type="checkbox" id="foodtech" name="secteur[]" value="FoodTech – AgriTech">
+                <label for="foodtech">FoodTech – AgriTech</label><br>
+
+                <input type="checkbox" id="healthtech" name="secteur[]" value="HealthTech – BioTech – MedTech">
+                <label for="healthtech">HealthTech – BioTech – MedTech</label><br>
+
+                <input type="checkbox" id="legaltech" name="secteur[]" value="Legaltech">
+                <label for="legaltech">Legaltech</label><br>
+
+                <input type="checkbox" id="mediatech" name="secteur[]" value="MediaTech">
+                <label for="mediatech">MediaTech</label><br>
+
+                <input type="checkbox" id="proptech" name="secteur[]" value="PropTech – Mobility – Logistics">
+                <label for="proptech">PropTech – Mobility – Logistics</label><br>
+
+                <input type="checkbox" id="retailtech" name="secteur[]" value="RetailTech">
+                <label for="retailtech">RetailTech</label><br>
+
+                <input type="checkbox" id="securite" name="secteur[]" value="Sécurité – Confidentialité">
+                <label for="securite">Sécurité – Confidentialité</label><br>
+
+                <input type="checkbox" id="traveltech" name="secteur[]" value="TravelTech – SpaceTech">
+                <label for="traveltech">TravelTech – SpaceTech</label><br>
+
+                <input type="checkbox" id="telecom" name="secteur[]" value="Telecom – IoT – Cloud">
+                <label for="telecom">Telecom – IoT – Cloud</label><br>
+
+                <input type="checkbox" id="worktech" name="secteur[]" value="WorkTech – EdTech">
+                <label for="worktech">WorkTech – EdTech</label><br>
+
+                <input type="checkbox" id="aucun" name="secteur[]" value="Aucun des secteurs proposés">
+                <label for="aucun">Aucun des secteurs proposés</label>
+            </div>
+
+            <label for="phase">Votre startup est en phase de :</label>
+            <select id="phase" name="phase" required>
+                <option value="Création de l’entreprise">Création de l’entreprise</option>
+                <option value="Lancement & validation du concept">Lancement & validation du concept</option>
+                <option value="Développement">Développement</option>
+                <option value="Expansion">Expansion</option>
+            </select>
+
+            <label for="effectif">Quel est l'effectif de votre Startup :</label>
+            <select id="effectif" name="effectif" required>
+                <option value="Moins de 10 Personnes">Moins de 10 Personnes</option>
+                <option value="11 à 20 personnes">11 à 20 personnes</option>
+                <option value="21 à 50 personnes">21 à 50 personnes</option>
+                <option value="51 à 100 Personnes">51 à 100 Personnes</option>
+                <option value="Plus de 100 personnes">Plus de 100 personnes</option>
+            </select>
+
+            <label for="chiffre-affaires">Votre Startup réalise un Chiffre d'affaires de :</label>
+            <select id="chiffre-affaires" name="chiffre-affaires" required>
+                <option value="Moins de 1 million de MAD">Moins de 1 million de MAD</option>
+                <option value="1 à 5 millions de MAD">1 à 5 millions de MAD</option>
+                <option value="5 à 10 millions de MAD">5 à 10 millions de MAD</option>
+                <option value="10 à 50 millions MAD">10 à 50 millions MAD</option>
+                <option value="50 à 100 millions MAD">50 à 100 millions MAD</option>
+                <option value="100 à 200 millions MAD">100 à 200 millions MAD</option>
+                <option value="Plus de 200 millions MAD">Plus de 200 millions MAD</option>
+            </select>
+
+            <label for="ville">Votre Startup est sur quelle ville :</label>
+            <input type="text" id="ville" name="ville" placeholder="Entrez votre ville" required>
+
+            <label for="annee-creation">Année de création de votre startup :</label>
+            <input type="text" id="annee-creation" name="annee-creation" placeholder="Entrez l'année" required>
+
+            <label for="reseau">Votre Startup appartient à quel réseau :</label>
+            <select id="reseau" name="reseau" required>
+                <option value="212 Founders">212 Founders</option>
+                <option value="Azur Partners">Azur Partners</option>
+                <option value="REM (Réseau Entreprendre Maroc)">REM (Réseau Entreprendre Maroc)</option>
+                <option value="Bidaya">Bidaya</option>
+                <option value="Tamwilcom (ex. Caisse Centrale de Garantie)">Tamwilcom (ex. Caisse Centrale de Garantie)</option>
+                <option value="CEED Maroc">CEED Maroc</option>
+                <option value="Enactus">Enactus</option>
+                <option value="Happy Ventures">Happy Ventures</option>
+                <option value="Impact Lab">Impact Lab</option>
+                <option value="La Startup Factory">La Startup Factory</option>
+                <option value="Maroc Numeric Fund">Maroc Numeric Fund</option>
+                <option value="StartUp Maroc">StartUp Maroc</option>
+                <option value="U-Founders">U-Founders</option>
+                <option value="N'appartient à aucun réseau">N'appartient à aucun réseau</option>
+                <option value="Autre">Autre</option>
+            </select>
+
+            <label for="site-web">Le site Web de votre Startup :</label>
+            <input type="text" id="site-web" name="site-web" required placeholder="siteweb.com">
+
+            <label for="prenom">Votre Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="nom">Votre Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="gsm">Vous êtes joignable sur quel numéro GSM : </label>
+            <p >Ne sera pas visible sur notre annuaire. Nécessaire pour la validation de votre demande seulement. </p>
+            <input type="tel" id="gsm" name="gsm" placeholder="GSM">
+
+            <label for="email">Vous êtes joignable sur quelle adresse email :</label>
+            <p>Ne sera pas visible sur notre annuaire. Pour la validation de votre référencement seulement.</p>
+            <input type="email" id="email" name="email" placeholder="name@gmail.com">
+
+            <button type="submit" class="submit-btn">Soumettre</button>
+        </form>
+    </div>
+</body>
+</html>

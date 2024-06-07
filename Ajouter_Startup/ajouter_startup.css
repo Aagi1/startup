@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+label {
+    text-align: left;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="tel"], select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.checkbox-group {
+    text-align: left;
+    margin: 10px 0;
+}
+.checkbox-group label {
+    font-weight: normal;
+}
+input[type="checkbox"]
+{
+    margin-top: 10px;
+}
+.submit-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+p{
+    text-align: left;
+    margin: 0;
+}
+
+/*Code Css du header en bas*/
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.actions .btn:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px 50px;
+}

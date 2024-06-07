@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.actions .btn:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px 50px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.startup-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.startup-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.startup-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.startup-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.startup-cardd p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.startup-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.startup-card button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
